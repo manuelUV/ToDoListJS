@@ -33,5 +33,8 @@ $(document).ready( function(){
                                     $(".fa-plus").click(function(){
                                         $("input[type='text']").fadeToggle();
                                         });                                  
-    
+    $(".filters").on("click","li",function(){
+        $("ul").css("background","#ffff");
+
+    });
 });

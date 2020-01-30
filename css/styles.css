@@ -79,3 +79,7 @@ input:focus {
     color: gray;
     text-decoration: line-through
 }
+.filters{
+    display: flex;
+    justify-content: space-around;
+}
